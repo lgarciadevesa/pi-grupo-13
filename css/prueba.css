@@ -1,0 +1,52 @@
+.menuPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    align-items: center;
+   
+    
+
+
+}
+
+.padreregistro {
+    text-align: right;
+    margin-right: 20px;
+   
+    
+}
+.registro1 {
+    color: white;
+    
+}
+.registro2 {
+    color: white;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.a { margin-left: 20px;}
+
+a:hover {
+    color: rgb(7, 0, 0);
+    text-decoration: underline;
+}
+
+.header {
+    background-color: #183363;
+    height: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img {
+    height: 80px;
+   
+    width: 170px;
+}
