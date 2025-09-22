@@ -15,13 +15,22 @@
     flex-wrap: wrap;
     margin-left: 15px;
     align-items: center;
-   
 
 }
 
 .search {
    margin-left: 40px;
+   
 }
+
+.busquedaForm {
+     width: 250px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    
+   
+}
+
 .padreregistro {
     text-align: right;
     margin-right: 20px;
