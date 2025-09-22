@@ -10,27 +10,68 @@
 
 <body>
 
-    <header class="padreHeader">
+   <header class="header">
 
-        <div class="navHeader">
-            <nav>
-                <a href="./index.html"><img src="./img/logo.png" class="imageLogo"></a>
-
-                <div class="hijosHeader">SMARTPHONES</div>
-                <div class="hijosHeader">TABLETS</div>
-                <div class="hijosHeader">COMPUTADORAS</div>
+        <div class="menuPrincipal"> <a href="index.html"><img src="./img/logo.png" alt=""> </a>
+           <div class="search">
+                <form   action="./search-result.html" method="get">
+                    <input class="busquedaForm" type="text" name="busqueda" value="" placeholder="Buscar...">
+                </form>
 
 
-        
-        </nav>
 </div>
-        <nav class=navHeader2>
-            <div class="hijosHeader"><a class="loginn" href="./login.html">LOGIN</a></div>
-            <DIV class="hijosHeader"><a class="registro" href="./registro.html">REGISTRO</a></DIV>
+
+
+        </div>
+
+        <nav class="padreregistro">
+            <a class="header1 a" href="./login.html">Login</a>
+            <a class="header2 a" href="./registro.html">Register</a>
         </nav>
+
+
+
+
 
     </header>
 
+<section class="LOGIN">
+<h1>BIENVENIDO</h1>
+<form class="form" action="" method="get">
+    <label class="nombreinicial">Email</label>
+    <div>
+        <input class="cuadrados" type="email" name="email" placeholder="Email" required>
+    </div>
+<label class="titulo1">Contraseña </label>
+        <div>
+            <input class="cuadrados"type="password" id="password" name="Contraseña" placeholder="password" required>
+            
+        </div>
+
+        <div class="recordar">
+            <input type="checkbox"name="Recordarme" value="Recordarme">Recordarme</label>
+        </div>
+
+        <div class="combinacion">
+            <span >La combinación ingresada de email y contraseña no es válida.</span>
+        </div>
+        <div>
+            <button type="submit" class="ingresar">Ingresar</button>
+        </div>
+        
+        
+</form>
+</section>
+
 </body>
+
+
+ <footer class="footer">
+  <div class="footer-content">
+    <p><strong>Integrantes:</strong> Lucas Garcia Devesa · Julian Marot </p>
+    <p>Proyecto de Tecnologias de Desarrollo Front End - 2025</p>
+    <p>Contacto: <a class="footercontact" href="mailto:proyecto@ejemplo.com">grupo-13@ejemplo.com</a></p>
+  </div>
+</footer>
 
 </html>

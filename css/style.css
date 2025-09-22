@@ -9,53 +9,229 @@
     margin-right: 30px;
 }
 
-.padreHeader {
+/* HEADER */
+.menuPrincipal {
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(23, 70, 115);
-    flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
-    ;
+    margin-left: 15px;
+    align-items: center;
+   
+
 }
 
-.imageLogo {
-display: block;
-justify-content: center;
-margin-top: 20px;
-margin-left: 10px;
-margin-bottom: 20px;
-width: 166px;
-height: 75px;
+.search {
+   margin-left: 40px;
 }
-
-
-.hijosHeader {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    margin-right: 15px;
-    align-self: center;
-     text-decoration: none;
-    color: white;
+.padreregistro {
+    text-align: right;
+    margin-right: 20px;
+    
+   
     
 }
-.listasHeader {
-text-decoration: none; 
-color: white;
-padding: 15px;
-}
-.registro {
-    margin: 10px;
-    text-decoration: none;
+.header1 {
     color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    
 }
-.loginn {
-    text-decoration: none;
-    color: white; 
+.header2 {
+    color: white;
+    font-size: 25px;
 }
 
-.navHeader {
-    display: flex;
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 0px;
 }
+
+.a { margin-left: 20px;}
+
+
+.header {
+    background-color: #183363;
+    height: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img {
+    height: 80px;
+   
+    width: 170px;
+}
+
+/* REGISTRO */
+
+
+.bodyregis {
+    background-color: rgb(169, 238, 215);
+}
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:rgb(169, 238, 215);
+    padding: 50px 15px 90px 90px;
+    width: 600px;
+    margin: auto;
+}
+label {
+    display: block;
+}
+
+.obligatorio {
+    color: red;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+}
+
+.titulo1 {
+    margin-top: 15px;
+}
+.cuadrados {
+    height: 30px;
+    width: 400px; 
+    padding: 8px;
+}
+
+.titulogenero {
+    margin-right: 115px;
+    margin-top: 20px;
+}
+.genero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.titulo2{ 
+    margin-top: 20px;
+    margin-right: 115px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.libre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    height: 100px;
+}
+.condiciones {
+    margin-bottom: 10px; 
+}
+
+.botones {
+    margin-left: 75px; 
+    margin-top: 15px; 
+    background-color: rgb(169, 238, 215);
+}
+.boton1 { 
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px; 
+    width: 120px; 
+    background-color: rgb(51, 128, 222);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.boton2 {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px; 
+    width: 120px; 
+    background-color: rgb(51, 128, 222);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px; 
+    justify-content: center;
+
+}
+
+/* LOGIN */
+.bodylogin {
+    background-color: rgb(169, 238, 215);
+}
+.padreregistro {
+    text-align: right;
+    margin: 20px;
+}
+.registro1 {
+    color: #666;
+    margin-right: 20px;
+}
+.registro2 {
+    color: #666;
+    margin-right: 20px;
+}
+.LOGIN {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.combinacion {
+    color: red;
+     margin-top: 5px;
+  margin-bottom: 10px;
+}
+.nombreinicial {
+    text-align: left;
+}
+
+
+h1 {
+    text-align: center;
+  margin-bottom: 20px;
+}
+label {
+    text-align: left;
+  display: block;
+}
+
+.obligatorio {
+     color: red;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: block;
+  
+}
+
+/* FOOTER */
+.footer {
+  background: #183363;       
+  color: white;       
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.footercontact {
+  color: white;           
+  text-decoration: none;
+  font-size: 14px;
+}
+
