@@ -12,15 +12,19 @@
 .padreregistro {
     text-align: right;
     margin-right: 20px;
+    
    
     
 }
 .registro1 {
     color: white;
+    font-size: 25px;
+    margin-left: 20px;
     
 }
 .registro2 {
     color: white;
+    font-size: 25px;
 }
 
 a {
