@@ -1,56 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
-<header class="header">
 
-        <div class="menuPrincipal"> <a href="index.html"><img src="./img/logo.png" alt=""> </a>
-           <div class="search">
-                <form   action="./search-result.html" method="get">
-                    <input class="busquedaForm" type="text" name="busqueda" value="" placeholder="Buscar...">
-                </form>
+  <header class="header">
 
-
-</div>
+    <div class="menuPrincipal"> <a href="index.html"><img src="./img/logo.png" alt=""> </a>
+      <div class="search">
+        <form action="./search-result.html" method="get">
+          <input class="busquedaForm" type="text" name="busqueda" value="" placeholder="Buscar...">
+        </form>
 
 
-        </div>
-
-        <nav class="padreregistro">
-            <a class="header1 a" href="./login.html">Login</a>
-            <a class="header2 a" href="./registro.html">Register</a>
-        </nav>
+      </div>
 
 
+    </div>
+
+    <nav class="padreregistro">
+      <a class="header1 a" href="./login.html">Login</a>
+      <a class="header2 a" href="./registro.html">Register</a>
+    </nav>
 
 
 
-    </header>
 
 
-  <nav class="navVertical">
-    <h3 class="navH3">Categorías</h3>
-    <ul class="navUl">
-      <li class="navLi"><a href="./product.html">Ropa Deportiva</a></li>
-      <li class="navLi"><a href="./product.html">Calzado</a></li>
-      <li class="navLi"><a href="./product.html">Accesorios</a></li>
-      <li class="navLi"><a href="./product.html">Suplementos</a></li>
-    </ul>
-  </nav>    
+  </header>
 
- <footer class="footer">
-  <div class="footer-content">
-    <p><strong>Integrantes:</strong> Lucas Garcia Devesa · Julian Marot </p>
-    <p>Proyecto de Tecnologias de Desarrollo Front End - 2025</p>
-    <p>Contacto: <a class="footercontact" href="mailto:proyecto@ejemplo.com">grupo-13@ejemplo.com</a></p>
-  </div>
-</footer>
+  <section class="sectionProduct">
+
+    <nav class="navVertical">
+      <h3 class="navH3">Categorías</h3>
+      <ul class="navUl">
+        <li class="navLi"><a href="./product.html">Ropa Deportiva</a></li>
+        <li class="navLi"><a href="./product.html">Calzado</a></li>
+        <li class="navLi"><a href="./product.html">Accesorios</a></li>
+        <li class="navLi"><a href="./product.html">Suplementos</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="divProduct">
+      <img src="./img/remera-nike2.jpeg" alt="">
+      <div class="pProduct">
+        <p class="pProduct1"> Remera nike </p>
+
+        <p class="pProduct2">
+          Marca: Nike <br> <br>
+
+          Descripcion: UNA OPCIÓN INTELIGENTE PARA TU ACTIVIDAD DIARIA.
+          La remera Nike Sportswear esta confeccionada con nuestra tela de algodón de uso diario en un ajuste clasico
+          que brinda una sensación familiar desde el primer uso. El logotipo de Futura bordado en el pecho te brinda un
+          estilo Nike distintivo.
+          <br>
+
+          Beneficios: • El estilo de ajuste clasico de la remera es relajado
+        </p>
+        <p class="pProduct3">
+          precio final
+          <br>
+          <strong class="pProduct4"> $30,500 </strong>
+        </p>
+        
+          <form class="rating">
+            <input type="radio" id="star5" name="rating" value="5" />
+            <label for="star5">★</label>
+
+            <input type="radio" id="star4" name="rating" value="4" />
+            <label for="star4">★</label>
+
+            <input type="radio" id="star3" name="rating" value="3" />
+            <label for="star3">★</label>
+
+            <input type="radio" id="star2" name="rating" value="2" />
+            <label for="star2">★</label>
+
+            <input type="radio" id="star1" name="rating" value="1" />
+            <label for="star1">★</label>
+          </form>
+          
+        
+
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p><strong>Integrantes:</strong> Lucas Garcia Devesa · Julian Marot </p>
+      <p>Proyecto de Tecnologias de Desarrollo Front End - 2025</p>
+      <p>Contacto: <a class="footercontact" href="mailto:proyecto@ejemplo.com">grupo-13@ejemplo.com</a></p>
+    </div>
+  </footer>
 
 </body>
+
 </html>

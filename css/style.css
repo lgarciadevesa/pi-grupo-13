@@ -8,6 +8,17 @@
     margin-left: 30px;
     margin-right: 30px;
 }
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+a:hover {
+    color: rgb(7, 0, 0);
+    text-decoration: underline;
+}
 
 /* HEADER */
 .menuPrincipal {
@@ -282,3 +293,88 @@ label {
   font-size: 14px;
 }
 
+
+
+/* PRODUCT */
+.sectionProduct {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    
+}
+
+.divProduct {
+    
+    margin: 20px;
+    
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    width: 898px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionProduct img {
+    height: 400px;
+    width: 300px;
+    
+}
+
+.pProduct {
+    
+    
+    text-align: left;
+    width: 578px;
+    margin: 10px;
+}
+
+.pProduct1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.pProduct2 {
+    font-size: 15px;
+    
+    font-weight: 300;
+}
+
+.pProduct3 {
+    
+    color: #9a9696;
+}
+.pProduct4 {
+    color: #0b0800;
+}
+
+
+.divProduct2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rating {
+  display: flex;             
+  flex-direction: row-reverse;       
+  justify-content: flex-end; 
+  font-size: 2rem;
+}
+
+
+.rating input {
+  display: none;
+}
+
+
+.rating label {
+  color: #ccc;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: gold;
+}
