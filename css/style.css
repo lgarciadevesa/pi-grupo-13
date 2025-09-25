@@ -274,10 +274,6 @@ h1 {
     text-align: center;
   margin-bottom: 20px;
 }
-label {
-    text-align: left;
-  display: block;
-}
 
 .obligatorio {
      color: red;
