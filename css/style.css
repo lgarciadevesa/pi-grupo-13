@@ -567,3 +567,26 @@ a {
 
 
 }
+
+/* SEARCH-RESULT */
+
+.SearchConteiner {
+    display: flex;
+
+}
+
+.SearchCalzado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.resultadosEncontrados {
+   margin-left: 30px;
+}
+
+.SearchH1 {
+    align-self: flex-start;
+    text-align: left;
+}
