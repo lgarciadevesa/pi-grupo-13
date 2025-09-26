@@ -421,7 +421,7 @@ h1 {
 
 /* CATEGORY */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     .menuPrincipal {
     display: flex;
@@ -479,8 +479,8 @@ a {
 }
 
 .header img {
-    height: 80px;
-    width: 120px;
+    height: 50px;
+    width: 90px;
 }
 
 
@@ -490,7 +490,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 600px;
+    width: 768px;
 }
 
 .divProduct {
@@ -498,7 +498,7 @@ a {
     border: 1px solid #ccc;
     border-radius: 8px;
     justify-content: center ;
-    width: 298px;
+    width: 398px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -550,4 +550,5 @@ a {
 .SearchH1 {
     align-self: flex-start;
     text-align: left;
+    
 }
