@@ -448,7 +448,7 @@ h1 {
 
 /* CATEGORY */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     .menuPrincipal {
     display: flex;
@@ -525,7 +525,7 @@ a {
     border: 1px solid #ccc;
     border-radius: 8px;
     justify-content: center ;
-    width: 398px;
+    width: 536px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -553,6 +553,13 @@ a {
     font-size: 15px;
     font-weight: bold;
 }
+
+.navVertical {
+    width: 150px;
+    background: rgb(49, 48, 48);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
 
 
 }
