@@ -128,7 +128,7 @@ a {
 
 .verDetalles {
     background-color: #183363;
-    padding: 10px 20px;
+    padding: 1px 2px;
     font-size: 12px;
     color: white;
     text-decoration: none;
@@ -137,7 +137,10 @@ a {
 
 h3 {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 15px;}
+h2 {
+    background-color: #9a9696;
+   
 }
 /* REGISTRO */
 
@@ -150,6 +153,7 @@ h1 {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 0px;
+   
 }
 
 .form {
@@ -325,7 +329,7 @@ h1 {
 /* NAV VERTICAL */
 
 .navVertical {
-    width: 220px;
+    width: 208px;
     background: rgb(49, 48, 48);
     color: white;
     padding: 20px;
@@ -588,4 +592,70 @@ a {
     text-align: left;
     
 }
+}
+
+
+/* PRODUCT LIST */
+
+.ProductList {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+.ProductList article {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 4px ;
+  text-align: left;
+  padding: 10px;
+  margin: 25px;
+  width: 240px;
+}
+
+
+.ProductList img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  margin: 4px;
+}
+
+
+.ProductList p {
+  margin: 4px;
+  font-size: 15px;
+ 
+}
+
+/* BEAUTY LIST */
+
+.BeautyList {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+.BeautyList article {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 4px ;
+  text-align: left;
+  padding: 10px;
+  margin: 25px;
+  width: 240px;
+}
+
+
+.BeautyList img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  margin: 4px;
+}
+
+
+.BeautyList p {
+  margin: 4px;
+  font-size: 15px;
 }
