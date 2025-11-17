@@ -1,115 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Category</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category</title>
+  <link rel="stylesheet" href="./css/styleOK.css">
 </head>
+
 <body>
-    
-<header class="header">
 
-        <div class="menuPrincipal"> <a href="index.html"><img src="./img/logo.png" alt=""> </a>
-           <div class="search">
-                <form   action="./search-result.html" method="get">
-                    <input class="busquedaForm" type="text" name="busqueda" value="" placeholder="Buscar...">
-                </form>
+  <header class="header">
 
-
-</div>
+    <div class="menuPrincipal"> <a href="index.html"><img src="./img/logo.png" alt=""> </a>
+      <div class="search">
+        <form action="./search-result.html" method="get">
+          <input class="busquedaForm" type="text" name="busqueda" value="" placeholder="Buscar...">
+        </form>
 
 
-        </div>
-
-        <nav class="padreregistro">
-            <a class="header1 a" href="./login.html">Login</a>
-            <a class="header2 a" href="./registro.html">Register</a>
-        </nav>
+      </div>
 
 
+    </div>
 
-
-
-    </header>
+    <nav class="padreregistro">
+      <a class="header1 a" href="./login.html">Login</a>
+      <a class="header2 a" href="./registro.html">Register</a>
+    </nav>
 
 
 
 
-<main class="mainHome">
-  
-<nav class="navVertical">
-    <h3 class="navH3">Categorías</h3>
-    <ul class="navUl">
-      <li class="navLi"><a href="./category.html">Ropa Deportiva</a></li>
-      <li class="navLi"><a href="./category.html">Calzado</a></li>
-      <li class="navLi"><a href="./category.html">Accesorios</a></li>
-      <li class="navLi"><a href="./category.html">Suplementos</a></li>
-    </ul>
-  </nav>
 
-<section class="conteinerHome">
-<section class="masVendidos">
-<H1 class="H1Home"><strong>ROPA DEPORTIVA</strong></H1>
-<article class="productosHome"><img src="./img/remera-adidas1.jpeg" class="imgHome">
-<h2>Remera Adidas</h2>
-<p>Remera Adidas de algodón suave, diseño clásico con el logo al frente.</p>
-<p> $30.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a>
-</article>
-
-<article class="productosHome"><img src="./img/remera-adidas2.jpeg" class="imgHome">
-<h2>Remera Adidas</h2>
-<p>Remera Adidas de algodón suave, diseño clásico con el logo al frente.</p>
-<p> $30.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a> 
-</article>
-
-<article class="productosHome"><img src="./img/remera-nike1.jpeg" class="imgHome">
-<h2>Remera Nike</h2>
-<p>Remera Nike deportiva, con tecnología que ayuda a mantenerte fresco.</p>
-<p> $30.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a> 
-</article>
-
-<article class="productosHome"><img src="./img/remera-nike2.jpeg" class="imgHome">
-<h2>Remera Nike</h2>
-<p>Remera Nike deportiva, con tecnología que ayuda a mantenerte fresco.</p>
-<p> $30.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a> 
-</article>
-
-<article class="productosHome"><img src="./img/remera-puma1.jpeg" class="imgHome">
-<h2>Remera Puma</h2>
-<h3>Remera Puma ligera y cómoda, ideal para entrenar o uso diario.</h3>
-<p> $30.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a>  
-</article>
-
-<article class="productosHome"><img src="./img/remera-puma2.jpeg" class="imgHome">
-<h2>Remera Puma</h2>
-<h3>Remera Puma ligera y cómoda, ideal para entrenar o uso diario.</h3>
-<p> $30.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a> 
-</article>
+  </header>
 
 
 
-</section>
+
+  <main class="mainHome">
+
+    <nav class="navVertical">
+      <h3 class="navH3">Categorías</h3>
+      <ul class="navUl">
+        <li class="navLi"><a href="./category.html?categoria=beauty">Beauty</a></li>
+        <li class="navLi"><a href="./category.html?categoria=fragrances">Fragrances</a></li>
+        <li class="navLi"><a href="./category.html?categoria=furniture">Furniture</a></li>
+        <li class="navLi"><a href="./category.html?categoria=groceries">Groceries</a></li>
+
+    </nav>
+    <section class="conteinerHome">
+      
+
+
+      <section class="section-all">
+        <h2>Todos los productos</h2>
+        <div class="ProductList"></div>
+      </section>
+
+    </section>
 
 
 
-</main>
+    <script src="./js/catregoryOK.js"></script>
+  </main>
 
 
 
- <footer class="footer">
-  <div class="footer-content">
-    <p><strong>Integrantes:</strong> Lucas Garcia Devesa · Julian Marot </p>
-    <p>Proyecto de Tecnologias de Desarrollo Front End - 2025</p>
-    <p>Contacto: <a class="footercontact" href="mailto:proyecto@ejemplo.com">grupo-13@ejemplo.com</a></p>
-  </div>
-</footer>
+  <footer class="footer">
+    <div class="footer-content">
+      <p><strong>Integrantes:</strong> Lucas Garcia Devesa · Julian Marot </p>
+      <p>Proyecto de Tecnologias de Desarrollo Front End - 2025</p>
+      <p>Contacto: <a class="footercontact" href="mailto:proyecto@ejemplo.com">grupo-13@ejemplo.com</a></p>
+
+    </div>
+  </footer>
 
 </body>
+
 </html>
