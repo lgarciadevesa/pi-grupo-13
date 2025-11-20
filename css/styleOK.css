@@ -81,6 +81,26 @@ a {
     width: 170px;
 }
 
+.userinfo {
+  color: white;
+  display: inline-block;
+}
+
+
+.bienvenido {
+  color: white;
+  font-size: 20px;      
+  margin-right: 350px;   
+}
+
+
+.logout {
+  color: white;       
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
 /* HOME */
 
 .mainHome {
