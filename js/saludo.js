@@ -2,13 +2,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var email = localStorage.getItem("email");
 
+
   if (!email) {
     return;
   }
 
-  var userInfo = document.querySelector(".userinfo");
-  var loginLink = document.querySelector(".login");
+  var userInfo     = document.querySelector(".userinfo");
+  var loginLink    = document.querySelector(".login");
   var registroLink = document.querySelector(".registro");
+
 
   if (loginLink) {
     loginLink.style.display = "none";
@@ -19,25 +21,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   if (userInfo) {
+    userInfo.innerHTML =
+      "<span class='bienvenido'>Bienvenido: " + email + "</span>" +
+      "<a  class='logout'>Logout</a>";
 
-    userInfo.innerHTML = "";
+    var logout = document.querySelector(".logout");
 
-    var spanBienvenido = document.createElement("span");
-    spanBienvenido.className = "bienvenido";
-    spanBienvenido.innerText = "Bienvenido: " + email;
-
-    var logoutLink = document.createElement("a");
-    logoutLink.href = "#";
-    logoutLink.className = "logout";
-    logoutLink.innerText = "Logout";
-
-    userInfo.appendChild(spanBienvenido);
-    userInfo.appendChild(logoutLink);
-
-    logoutLink.addEventListener("click", function (e) {
-      e.preventDefault();
-      localStorage.removeItem("email");
-      window.location.href = "./login.html";
-    });
+    if (logout) {
+      logout.addEventListener("click", function (e) {
+        e.preventDefault();
+        // saco el email del localStorage
+        localStorage.removeItem("email");
+        // redirijo al login
+        location.href = "./login.html";
+      });
+    }
   }
 });
