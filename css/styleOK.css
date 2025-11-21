@@ -93,6 +93,9 @@ a {
   margin-right: 350px;   
 }
 
+.userinfo a.logout {
+  margin-left: 20px;
+}
 
 .logout {
   color: white;       

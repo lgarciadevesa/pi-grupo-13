@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     userInfo.innerHTML =
       "<span class='bienvenido'>Bienvenido: " + email + "</span>" +
       "<a href='#' class='logout'>Logout</a>";
+
+    userInfo.style.color = "white"
+
   }
 
 });
