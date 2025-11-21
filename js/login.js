@@ -5,38 +5,33 @@ let errorSpan = document.querySelector(".combinacion span");
 
 form.addEventListener("submit", function (e) {
 
+    e.preventDefault();
+
     errorSpan.style.display = "none";
     errorSpan.innerText = "";
 
     let email = emailInput.value;
     let pass = passwordInput.value;
-    let valido = true;
 
     if (email === "") {
         errorSpan.style.display = "block";
         errorSpan.innerText = "El email es obligatorio.";
-        valido = false;
+        return;
     }
 
-    else if (pass === "") {
+    if (pass === "") {
         errorSpan.style.display = "block";
         errorSpan.innerText = "La contraseña es obligatoria.";
-        valido = false;
+        return;
     }
 
-    else if (pass.length < 6) {
+    if (pass.length < 6) {
         errorSpan.style.display = "block";
         errorSpan.innerText = "La contraseña debe tener al menos 6 caracteres.";
-        valido = false;
-    }
-
-    if (!valido) {
-        e.preventDefault();
         return;
     }
 
     localStorage.setItem("email", email);
 
-    e.preventDefault();
-    window.location.href = "./index.html";
+    location.href = "./index.html";
 });

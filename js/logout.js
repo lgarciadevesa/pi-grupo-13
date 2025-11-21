@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  var logout = document.querySelector(".logout");
+  let logout = document.querySelector(".logout");
 
   if (!logout) return;
 
-  var userInfo     = document.querySelector(".userinfo");
-  var loginLink    = document.querySelector(".login");
-  var registroLink = document.querySelector(".registro");
+  let userInfo     = document.querySelector(".userinfo");
+  let loginLink    = document.querySelector(".login");
+  let registroLink = document.querySelector(".registro");
 
   logout.addEventListener("click", function (e) {
     e.preventDefault();

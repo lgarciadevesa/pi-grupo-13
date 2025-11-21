@@ -35,49 +35,33 @@
 </header>
 
 <section class="REGIS">
-    <h1>REGISTRATE</h1>
-    <form class="form" action="" method="get">
-        
-        <label class="nombreinicial ">Nombre</label>
-        <div>
-            <input class="cuadrados" type="text"name="Nombre" placeholder="Ingresa tu nombre" required>
+  <h1>REGISTRATE</h1>
+  <form class="form" action="" method="get">
 
-        </div>
+    <label class="titulo1">Email</label>
+    <div>
+      <input class="cuadrados" type="email" id="email" name="Email" placeholder="Ingresa tu email">
+      <p class="errorEmail registroError"></p>
+    </div>
 
-        <label class="titulo1">Email</label>
-        <div>
-            <input class="cuadrados"type="email"name="Email" placeholder="Ingresa tu email" required>
+    <label class="titulo1">Contraseña</label>
+    <div>
+      <input class="cuadrados" id="password" type="password" name="Contraseña" placeholder="Ingresa tu contraseña">
+      <p class="errorPass registroError"></p>
+    </div>
 
-        </div>
-
-        <label class="titulo1">Contraseña</label>
-        <div>
-            <input class="cuadrados" id="password" type="password"name="Contraseña" placeholder="Ingresa tu contraseña"required>
-
-        </div>
-        
-        <label class="titulo1">Repetir Contraseña</label>
-        <div>
-            <input class="cuadrados" id="password2" type="password"name="Contraseña" placeholder="Ingresa tu contraseña"required>
-
-        </div>
-       
-        <label class="titulo2">Género</label>
-        <div class="genero">
-            <label>
-                 <input type="radio"name="Género" value="masculino">Masculino</label>
-            <label>
-                 <input type="radio"name="Género" value="femenino">Femenino</label>
-            <label>
-                 <input type="radio"name="Género" value="otro">Prefiero no decirlo</label>
-        </div>
+    <label class="titulo1">Repetir Contraseña</label>
+    <div>
+      <input class="cuadrados" id="password2" type="password" name="RepetirContraseña"
+        placeholder="Repetí tu contraseña">
+      <p class="errorPass2 registroError"></p>
+    </div>
 
 
+    <div class="condiciones">
+      <input type="checkbox" name="Términos" value="Términos">Acepto los términos y condiciones.</label>
+    </div>
 
-        <div class="condiciones">
-            <input type="checkbox"name="Términos" value="Términos">Acepto los términos y condiciones.</label>
-        </div>
-        
     <div class="botones">
       <button class="boton1" type="submit">Registrarme</button>
       <button class="boton2" type="reset">Cancelar</button>
@@ -86,17 +70,18 @@
     <p class="registroLink">
       <a class="registroLink" href="./login.html">Ya tengo una cuenta</a>
     </p>
-        
 
-    </form>
-     
-        
+
+
+  </form>
+
+
 </section>
 
 
 
 
- <footer class="footer">
+<footer class="footer">
   <div class="footer-content">
     <p><strong>Integrantes:</strong> Lucas Garcia Devesa · Julian Marot </p>
     <p>Proyecto de Tecnologias de Desarrollo Front End - 2025</p>
@@ -107,4 +92,5 @@
 <script src="./js/logout.js"></script>
 <script src="./js/register.js"></script>
 </body>
+
 </html>
