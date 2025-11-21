@@ -41,6 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
       category.innerText = product.category;
       category.href = "./category.html?category=" + product.category;
 
+      category.style.color = "black";
+      category.style.fontSize= "15px"
+
       stock.innerText = "Stock disponible: " + product.stock + " unidades";
 
       let tagsHTML = "";
