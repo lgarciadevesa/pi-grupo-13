@@ -36,76 +36,82 @@
 
 </header>
 
-  <section class="sectionProduct">
+<section class="sectionProduct"> 
 
     <nav class="navVertical">
       <h3 class="navH3">Categorías</h3>
       <ul class="navUl">
-  <li class="navLi"><a href="./category.html">Ropa Deportiva</a></li>
-      <li class="navLi"><a href="./category.html">Calzado</a></li>
-      <li class="navLi"><a href="./category.html">Accesorios</a></li>
-      <li class="navLi"><a href="./category.html">Suplementos</a></li>
+        <li class="navLi"><a href="./category.html?categoria=beauty">Beauty</a></li>
+        <li class="navLi"><a href="./category.html?categoria=fragrances">Fragrances</a></li>
+        <li class="navLi"><a href="./category.html?categoria=furniture">Furniture</a></li>
+        <li class="navLi"><a href="./category.html?categoria=groceries">Groceries</a></li>
+
       </ul>
     </nav>
 
+  <div class="divProduct">
 
-    <div class="divProduct">
-      <img src="./img/remera-nike2.jpeg" alt="">
-      <div class="pProduct">
-        <p class="pProduct1"> Remera nike </p>
+    <img class="productImg" src="" alt="">
 
-        <p class="pProduct2">
-          Marca: Nike <br> <br>
+    <div class="pProduct">
 
-          Descripcion: UNA OPCIÓN INTELIGENTE PARA TU ACTIVIDAD DIARIA.
-          La remera Nike Sportswear esta confeccionada con nuestra tela de algodón de uso diario en un ajuste clasico
-          que brinda una sensación familiar desde el primer uso. El logotipo de Futura bordado en el pecho te brinda un
-          estilo Nike distintivo.
-          <br>
-
-          Beneficios: • El estilo de ajuste clasico de la remera es relajado
-        </p>
-        <p class="pProduct3">
-          precio final
-          <br>
-          <strong class="pProduct4"> $30,500 </strong>
-        </p>
-        
-          <form class="rating">
-            <input type="radio" id="star5" name="rating" value="5" />
-            <label for="star5">★</label>
-
-            <input type="radio" id="star4" name="rating" value="4" />
-            <label for="star4">★</label>
-
-            <input type="radio" id="star3" name="rating" value="3" />
-            <label for="star3">★</label>
-
-            <input type="radio" id="star2" name="rating" value="2" />
-            <label for="star2">★</label>
-
-            <input type="radio" id="star1" name="rating" value="1" />
-            <label for="star1">★</label>
-          </form>
-
-           <label class="titulo2">Déjanos tus comentarios</label>
-        <div class="comentarios">
-            <textarea class="libre" name="comentarios" id="comentarios"></textarea>
-        </div>
-          
-       <p>  Muy buena calidad de tela, queda cómoda y tiene un diseño que se ve genial. <br> <br>
-        Juan Perez| sep 26, 2025
+      <p class="pProduct1 productName"></p>
 
 
-       </p>
+      <p class="pProduct2">
+        Marca: <span class="productBrand"></span> <br><br>
+        Descripción:
+        <span class="productDescription"></span>
+      </p>
+
+      <p class="pProduct3">
+        Precio final<br>
+        <strong class="pProduct4 productPrice"></strong>
+      </p>
+
+      <p class="productCategory">
+        Categoría:
+        <a href="./category.html" class="categoryLink"></a>
+      </p>
 
 
+      <p class="productStock"></p>
+
+      <ul class="tagsList"></ul>
+
+
+      <form class="rating">
+        <input type="radio" id="star5" name="rating" value="5" />
+        <label for="star5">★</label>
+
+        <input type="radio" id="star4" name="rating" value="4" />
+        <label for="star4">★</label>
+
+        <input type="radio" id="star3" name="rating" value="3" />
+        <label for="star3">★</label>
+
+        <input type="radio" id="star2" name="rating" value="2" />
+        <label for="star2">★</label>
+
+        <input type="radio" id="star1" name="rating" value="1" />
+        <label for="star1">★</label>
+      </form>
+
+      <label class="titulo2">Déjanos tus comentarios</label>
+      <div class="comentarios">
+        <textarea class="libre" name="comentarios" id="comentarios"></textarea>
       </div>
 
+  
+      <section class="reviewsSection">
+        <h3>Reviews de usuarios</h3>
+        <div class="reviewsList"></div>
+      </section>
 
     </div>
+  </div>
 
-  </section>
+</section>
 
   <footer class="footer">
     <div class="footer-content">
@@ -116,6 +122,7 @@
   </footer>
 <script src="./js/saludo.js"></script>
 <script src="./js/logout.js"></script>
+<script src="./js/product.js"></script>
 </body>
 
 </html>
