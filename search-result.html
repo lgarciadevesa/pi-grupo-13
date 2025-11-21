@@ -1,108 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styleOK.css">
 </head>
+
 <body>
-    
+
   <header class="header">
 
-  <section class="menuPrincipal">
-    <a href="index.html">
-      <img src="./img/logo.png" alt="">
-    </a>
-
-    <section class="search">
-      <form action="index.html" method="get">
-        <input class="busquedaForm" type="text" name="busqueda" placeholder="Buscar...">
-        <button type="submit" class="searchBtn">🔍</button>
-      </form>
-    </section>
-  </section>
-
-  <nav class="padreregistro">
-
-    <span class="userinfo"></span>
-
-    <a class="header1 a login" href="./login.html">Login</a>
-    <a class="header2 a registro" href="./registro.html">Register</a>
-
-  </nav>
-
-</header>
-
-  <main class="SearchConteiner">
-  <nav class="navVertical">
-    <h3 class="navH3">Categorías</h3>
-    <ul class="navUl">
-      <li class="navLi"><a class="aVertical" href="./category.html">Ropa Deportiva</a></li>
-      <li class="navLi"><a href="./category.html">Calzado</a></li>
-      <li class="navLi"><a href="./category.html">Accesorios</a></li>
-      <li class="navLi"><a href="./category.html">Suplementos</a></li>
-    </ul>
-  </nav>    
+    <div class="menuPrincipal"> <a href="index.html"><img src="./img/logo.png" alt=""> </a>
+      <div class="search">
+        <form action="search-result.html" method="get">
+          <input class="busquedaForm" type="text" name="busqueda" value="" placeholder="Buscar...">
+           <button type="submit" class="searchBtn"> 🔍</button>
+        </form>
 
 
-
-    <section class="sectionCategorias">
-      <div class="resultadosEncontrados">
-        <h1 class="SearchH1">Resultados de búsqueda:</h1>
-        <p><strong>Resultados encontrados para: </strong>Calzado</p>
-        <p><strong>No se encontraron resultados para: </strong>Calzado</p>
       </div>
+
+
+    </div>
+
+    <nav class="padreregistro">
+      <a class="header1 a" href="./login.html">Login</a>
+      <a class="header2 a" href="./registro.html">Register</a>
+    </nav>
+
+
+
+
+
+  </header>
+
+
+
+
+  <main class="mainHome">
+    <nav class="navVertical">
+      <h3 class="navH3">Categorías</h3>
+      <ul class="navUl">
+        <li class="navLi"><a href="./category.html?categoria=beauty">Beauty</a></li>
+        <li class="navLi"><a href="./category.html?categoria=fragrances">Fragrances</a></li>
+        <li class="navLi"><a href="./category.html?categoria=furniture">Furniture</a></li>
+        <li class="navLi"><a href="./category.html?categoria=groceries">Groceries</a></li>
+
+      </ul>
+    </nav>
+
+    <section class="conteinerHome">
+
+      <h1>No se encontraron productos</h1>
+
+
+      
+
+    </section>
+  </main>
+
+
   
-  <section class="SearchCalzado">
- 
+  <script src="./js/searchResult.js"></script>
 
-<article class="productosHome"><img src="./img/zapatilla-adidas3.jpeg" class="imgHome">
-<h2>Zapatillas Adidas</h2>
-<p>Zapatillas Adidas versátiles, con buen soporte y estilo urbano.</p>
-<p> $130.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a>  
-</article>
-
-<article class="productosHome"><img src="./img/zapatilla-puma2.jpeg" class="imgHome">
-<h2>Zapatillas Puma</h2>
-<p>Zapatillas Puma modernas, pensadas para confort y movimiento ágil.</p>
-<p> $130.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a> 
-</article>
-
-<article class="productosHome"><img src="./img/zapatilla-puma3.jpeg" class="imgHome">
-<h2>Zapatillas Puma</h2>
-<p>Zapatillas Puma modernas, pensadas para confort y movimiento ágil.</p>
-<p> $130.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a>  
-</article>
-<article class="productosHome"><img src="./img/zapatilla-nike2.jpeg" class="imgHome">
-<h2>Zapatillas Nike</h2>
-<p>Zapatillas Nike con diseño innovador y excelente amortiguación.</p>
-<p> $130.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a>
-</article>
-
-<article class="productosHome"><img src="./img/zapatilla-nike3.jpeg" class="imgHome">
-<h2>Zapatillas Nike</h2>
-<h3>Zapatillas Nike con diseño innovador y excelente amortiguación.</h3>
-<p> $130.000</p>
-<a class="verDetalles" href="./product.html">VER DETALLES</a> 
-</article>
-
-  </section> 
-</main>
-
-
- <footer class="footer">
-  <div class="footer-content">
-    <p><strong>Integrantes:</strong> Lucas Garcia Devesa · Julian Marot </p>
-    <p>Proyecto de Tecnologias de Desarrollo Front End - 2025</p>
-    <p>Contacto: <a class="footercontact" href="mailto:grupo-13@ejemplo.com">grupo-13@ejemplo.com</a></p>
-  </div>
-</footer>
-<script src="./js/saludo.js"></script>
-<script src="./js/logout.js"></script>
 </body>
+
 </html>
