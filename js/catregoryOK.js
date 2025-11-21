@@ -43,6 +43,9 @@ fetch(url)
                 <h3>${p.title}</h3>
                 <p>${p.description}</p>
                 <p><strong>$${p.price}</strong></p>
+                <a href="./product.html?id=${p.id}" class="verDetalles">
+                Ver detalles
+            </a>
             </article>
             `;
         }
