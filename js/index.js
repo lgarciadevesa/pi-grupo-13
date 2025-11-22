@@ -1,3 +1,4 @@
+
 const productos = 'https://dummyjson.com/products';
 const beauty = 'https://dummyjson.com/products/category/beauty?limit=10';
 const fragrances = 'https://dummyjson.com/products/category/fragrances?limit=10';

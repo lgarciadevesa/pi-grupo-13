@@ -12,18 +12,18 @@
 
   <header class="header">
 
-    <div class="menuPrincipal"> <a href="index.html"><img src="./img/logo.png" alt=""> </a>
-      <div class="search">
-        <form action="search-result.html" method="get">
-          <input class="busquedaForm" type="text" name="busqueda" value="" placeholder="Buscar...">
-           <button type="submit" class="searchBtn"> 🔍</button>
-        </form>
+     <section class="menuPrincipal">
+    <a href="index.html">
+      <img src="./img/logo.png" alt="">
+    </a>
 
-
-      </div>
-
-
-    </div>
+    <section class="search">
+      <form action="" method="get">
+        <input class="busquedaForm" type="text" name="busqueda" placeholder="Buscar...">
+        <button type="submit" class="searchBtn">🔍</button>
+      </form>
+    </section>
+  </section>
 
     <nav class="padreregistro">
       <a class="header1 a" href="./login.html">Login</a>
@@ -40,30 +40,32 @@
 
 
   <main class="mainHome">
-    <nav class="navVertical">
-      <h3 class="navH3">Categorías</h3>
-      <ul class="navUl">
-        <li class="navLi"><a href="./category.html?categoria=beauty">Beauty</a></li>
-        <li class="navLi"><a href="./category.html?categoria=fragrances">Fragrances</a></li>
-        <li class="navLi"><a href="./category.html?categoria=furniture">Furniture</a></li>
-        <li class="navLi"><a href="./category.html?categoria=groceries">Groceries</a></li>
+    <main class="mainHome SearchConteiner">
+  <nav class="navVertical">
+    <h3 class="navH3">Categorías</h3>
+    <ul class="navUl">
+      <li class="navLi"><a href="./category.html?categoria=beauty">Beauty</a></li>
+      <li class="navLi"><a href="./category.html?categoria=fragrances">Fragrances</a></li>
+      <li class="navLi"><a href="./category.html?categoria=furniture">Furniture</a></li>
+      <li class="navLi"><a href="./category.html?categoria=groceries">Groceries</a></li>
+    </ul>
+  </nav>
 
-      </ul>
-    </nav>
+  <section class="conteinerHome resultadosEncontrados">
+    
+    <h1 class="h1search SearchH1"></h1>
 
-    <section class="conteinerHome">
+   
+    <section class="resultList SearchCalzado ProductList"></section>
+  </section>
+</main>
 
-      <h1>No se encontraron productos</h1>
-
-
-      
-
-    </section>
   </main>
 
 
   
   <script src="./js/searchResult.js"></script>
+  <script src="./js/navCategory.js"></script>
 
 </body>
 
